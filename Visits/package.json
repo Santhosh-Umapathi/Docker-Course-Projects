@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "*",
+    "redis": "2.8.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "boot": "docker-compose up",
+    "boot:bg": "docker-compose up -d",
+    "reboot": "docker-compose up --build",
+    "stop": "docker-compose down"
+  }
+}
